@@ -1,11 +1,11 @@
-# multiling_jd124
+# synthetic_data_quality_length_profile
 
 **统计多语言模型工程师·合成数据的质量分水岭各部分的长度占比并标出异常。**
 
-`multiling_jd124` —— 按段落统计多语言模型工程师·合成数据的质量分水岭相关的长度分布，标出过长、过短与重复表达的部分
+`synthetic_data_quality_length_profile` —— 按段落统计多语言模型工程师·合成数据的质量分水岭相关的长度分布，标出过长、过短与重复表达的部分
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`multiling_jd124.py` 拷走就能用
+- 单文件，`synthetic_data_quality_length_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install sigmazizi-multiling_jd124
+pip install sigmazizi-synthetic_data_quality_length_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-multiling_jd124 --help
+synthetic_data_quality_length_profile --help
 ```
 
-也可以不用安装，直接把 `multiling_jd124.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `synthetic_data_quality_length_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ multiling_jd124 --help
 ## 用法
 
 ```bash
-python multiling_jd124.py --file input.txt
-python multiling_jd124.py --text "示例内容"
-python multiling_jd124.py --file input.txt --json
+python synthetic_data_quality_length_profile.py --file input.txt
+python synthetic_data_quality_length_profile.py --text "示例内容"
+python synthetic_data_quality_length_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python multiling_jd124.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_multiling_jd124.py
+python test_synthetic_data_quality_length_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_multiling_jd124.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/sigmazizi/multiling_jd124>
+- GitHub 仓库：<https://github.com/sigmazizi/synthetic_data_quality_length_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_multiling_jd124.py
 sigmazizi 做多语言模型工程师·合成数据的质量分水岭相关的问题，方向对标阶跃星辰的中级多语言模型工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://sigmazizi.github.io>
-- 仓库：<https://github.com/sigmazizi/multiling_jd124>
+- 仓库：<https://github.com/sigmazizi/synthetic_data_quality_length_profile>
 
 ## 许可
 

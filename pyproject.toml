@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sigmazizi-multiling_jd124"
+name = "sigmazizi-synthetic_data_quality_length_profile"
 version = "0.1.0"
 description = "按段落统计多语言模型工程师·合成数据的质量分水岭相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://sigmazizi.github.io"
-Repository = "https://github.com/sigmazizi/multiling_jd124"
-Issues = "https://github.com/sigmazizi/multiling_jd124/issues"
+Repository = "https://github.com/sigmazizi/synthetic_data_quality_length_profile"
+Issues = "https://github.com/sigmazizi/synthetic_data_quality_length_profile/issues"
 
 [project.scripts]
-multiling_jd124 = "multiling_jd124:main"
+synthetic_data_quality_length_profile = "synthetic_data_quality_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["multiling_jd124"]
+py-modules = ["synthetic_data_quality_length_profile"]
